@@ -1,6 +1,6 @@
 // Initialize counters from localStorage if they exist
 let zaidCount = localStorage.getItem('zaidCount') ? parseInt(localStorage.getItem('zaidCount')) : 0;
-let furqanCount = localStorage.getItem('') ? parseInt(localStorage.getItem('furqanCount')) : 0;
+let furqanCount = localStorage.getItem('furqanCount') ? parseInt(localStorage.getItem('furqanCount')) : 0;
 
 // Display the initial values
 document.getElementById('zaidCount').innerText = myCount;
